@@ -1,0 +1,6 @@
+@mixin fit-pseudo() {
+	content: '';
+	display: block;
+	position: absolute;
+	inset: 0;
+}

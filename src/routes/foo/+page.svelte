@@ -20,6 +20,7 @@
 	.holder {
 		padding: 20px;
 		background: rgba(0, 255, 0, 0.1);
+		border: 1px solid $primary-color;
 	}
 	h3 {
 		margin: 0;

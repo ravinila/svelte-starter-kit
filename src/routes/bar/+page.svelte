@@ -18,6 +18,12 @@
 	.holder {
 		padding: 20px;
 		background: rgba(255, 0, 0, 0.1);
+		border: 1px solid $secondary-color;
+		position: relative;
+		&:after {
+			@include fit-pseudo();
+			border: 1px solid orange;
+		}
 		h3 {
 			margin: 0;
 		}

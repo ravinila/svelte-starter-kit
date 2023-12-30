@@ -1,0 +1,22 @@
+@import './normalize.css';
+
+/* Global styles */
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+}
+
+/* hide touch highlight on android webview */
+button,
+a {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+	-webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+	outline: none !important;
+}

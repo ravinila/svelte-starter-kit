@@ -3,7 +3,6 @@
 	import Nav from '$lib/components/Nav.svelte';
 	import { NavType, getNavigationType } from '$lib/services/view-transition';
 	import { activePageViewTansition } from '$lib/stores/view-transition';
-	import '$lib/styles/scss/global.scss';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
